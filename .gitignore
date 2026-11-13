@@ -1,0 +1,28 @@
+# Matrizes H: passam do limite de 100 MB do GitHub. Baixar do Moodle (ver README).
+data/H-*.csv
+data/*.zip
+
+# Cache gerado pelo servidor Python na primeira execucao
+data/*.npy
+
+# Build do C# (.NET)
+compilada/bin/
+compilada/obj/
+
+# Python
+__pycache__/
+*.pyc
+
+# Resultados gerados pelos testes (recriados pelo testar.ps1)
+*/out/
+*/out_sat/
+*/metricas.csv
+relatorio_comparativo.html
+relatorio_saturacao.html
+
+# Sistema / editores
+.vs/
+.vscode/
+.idea/
+Thumbs.db
+desktop.ini
